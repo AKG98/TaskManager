@@ -11,6 +11,7 @@ import { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { logoutUser } from "@/slices/UserSlice";
+import {tasksApi} from "@/slices/TasksSlice";
 
 
 
@@ -30,6 +31,7 @@ export default function DashNav() {
   // Handle logout action
   function logoutHandler() {
     dispatch(logoutUser());
+    dispatch(tasksApi.util.resetApiState());
     navigate('/');
   };
 
