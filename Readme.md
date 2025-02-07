@@ -1,10 +1,9 @@
 # Task Management Application
-
 I've built a full-stack task management application **"Task Master"** using the MERN stack with TypeScript. It helps users manage their daily tasks with features like real-time updates, user authentication, and a modern responsive interface.
 
-## What I Built
+**Live Demo:** [Task Master](https://taskmanager-36q2.onrender.com/)
 
-My app includes these key features:
+## Features Implemented
 
 ### Authentication System
 I implemented:
@@ -18,7 +17,7 @@ Users can:
 - Create and manage their tasks
 - Mark tasks as complete/pending
 - Search through their tasks
-- Filter tasks based on compleition state
+- Filter tasks based on completion state
 - See updates in real-time
 
 ### Technical Implementation
@@ -36,7 +35,7 @@ I built the frontend using:
 - React Router for navigation
 - Redux for managing application state
 - Tailwind CSS + Shadcn UI for styling
-- React icons for icons
+- React Icons for icons
 
 ### Backend
 For the server, I used:
